@@ -1,7 +1,4 @@
 
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     int xorOperation(int n, int start) {
@@ -18,12 +15,3 @@ public:
         return ans;
     }
 };
-
-int main() {
-
-    Solution s;
-
-    cout << s.xorOperation(5, 0);
-
-    return 0;
-}
